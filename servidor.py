@@ -3,6 +3,9 @@ import threading
 import sys
 import pickle
 import os
+
+## @Author Javier Rodriguez Gonzalez
+
 class Servidor():
 	n_users=0;
 	def __init__(self, host=socket.gethostname(), port=59989):
