@@ -4,6 +4,8 @@ import socket
 import pickle
 import os
 
+## @Author Javier Rodriguez Gonzalez
+
 class Cliente():
 
 	def __init__(self, host=socket.gethostname(), port=59989):
